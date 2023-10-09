@@ -10,5 +10,13 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Provider=SQLOLEDB.1;Data Source=DTRHIDRO\DTRHIDRO;Persist Security Info=True;Password=1234;User ID=sa;Initial Catalog=QuanLyDiemSV</Value>
     </Setting>
+    <Setting Name="ConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Provider=SQLOLEDB.1;Data Source=DTRHIDRO\DTRHIDRO;Integrated Security=SSPI;Initial Catalog=QuanLyDiemSV&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=SQLOLEDB.1;Data Source=DTRHIDRO\DTRHIDRO;Integrated Security=SSPI;Initial Catalog=QuanLyDiemSV</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
